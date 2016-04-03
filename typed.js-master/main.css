@@ -8,7 +8,7 @@
 body{
 	font-family: "Ubuntu", sans-serif;
 	font-size: 100%;
-	background:#f8f8f8;
+	background:#000000; /*background colour*/
 }
 
 a{
