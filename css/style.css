@@ -2,3 +2,35 @@ html{
     background-color: #000000;
 
 }
+.margin1{
+    margin: 200px 0px 10px 50px;
+}
+.margin2{
+    margin: 100px 0px 0px 50px;
+}
+.margin3{
+    margin: 5px 0px 0px 50px;
+}
+
+#prateek{
+    background-color: #ffffff;
+    height: 240%;
+}
+
+#androiddev {
+    background-color: #ffffff;
+    height: 240%;
+
+}
+#interactiondev{
+    background-color: #ffffff;
+    height: 240%;
+
+
+}
+#uidev{
+    background-color: #ffffff;
+    height: 240%;
+
+}
+
