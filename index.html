@@ -30,31 +30,56 @@
                     typeSpeed: 150,
                     backDelay: 900,
                     showCursor: true,
-                    loop: false
-                });
+                    loop: false,
+                    onStringTyped: function(){
+                        $("#prateek").animate({
+                            "background-color":"#ffffff",
+                            "color":"#000000"
+                        },1000,function(){});
+                    }
+                }).addClass("white").css("background-color","#000000");
+
+
 
                 $("#androiddev").typed({
                     strings:["^4000Android Developer"],
                     typeSpeed: 150,
                     backDelay: 900,
                     loop: false,
-                });
+                    onStringTyped: function(){
+                        $("#androiddev").animate({
+                            "background-color":"#ffffff",
+                            "color":"#000000"
+                        },1000,function(){});
+                    }
+                }).addClass("white").css("background-color","#000000");
 
                 $("#interactiondev").typed({
                     strings:["^4400Interaction Designer"],
                     typeSpeed: 150,
                     backDelay: 900,
-                    loop: false
-                });
+                    loop: false,
+                    onStringTyped: function(){
+                        $("#interactiondev").animate({
+                            "background-color":"#ffffff",
+                            "color":"#000000"
+                        },1000,function(){});
+
+                    }
+                }).addClass("white").css("background-color","#000000");
 
                 $("#uidev").typed({
                     strings:["^4800UI Designer"],
                     typeSpeed: 150,
                     backDelay: 900,
-                    loop: false
-                });
-
-
+                    loop: false,
+                    onStringTyped: function(){
+                        $("#uidev").animate({
+                            "background-color":"#ffffff",
+                            "color":"#000000"
+                        },1000,function(){});
+                    }
+                }).addClass("white").css("background-color","#000000");
 
 
             });

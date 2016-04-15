@@ -9,7 +9,7 @@ html{
     margin: 100px 0px 0px 50px;
 }
 .margin3{
-    margin: 5px 0px 0px 50px;
+    margin: 2px 0px 0px 50px;
 }
 
 #prateek{
@@ -34,3 +34,6 @@ html{
 
 }
 
+.white {
+    color: #ffffff;
+}
