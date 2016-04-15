@@ -2,8 +2,15 @@ html{
     background-color: #000000;
 
 }
+.menu-icon img{
+    height: 30px;
+    width: auto;
+    margin-top: 60px;
+    margin-right: 5%;
+    float: right;
+}
 .margin1{
-    margin: 200px 0px 10px 50px;
+    margin: 50px 0px 10px 50px;
 }
 .margin2{
     margin: 100px 0px 0px 50px;
@@ -36,4 +43,16 @@ html{
 
 .white {
     color: #ffffff;
+}
+
+.top-margin{
+    margin-top: 100px;
+}
+
+.scrolldown-icon img{
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+
 }
